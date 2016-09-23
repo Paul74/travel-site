@@ -7,6 +7,7 @@ gulp.task('watch', function() {
   browserSync.init({
         notify: false,
         browser: "chrome",
+        online: true,
         server: {
             baseDir:"app"
         }
